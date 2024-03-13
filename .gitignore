@@ -1,0 +1,6 @@
+./lua4*
+./luac*
+
+output/DemoGallery
+output/*.lua
+output/poweredBy/*
