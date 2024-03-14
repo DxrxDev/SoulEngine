@@ -1,10 +1,7 @@
-[ bg-colour 33 33 33, ltr-colour 255 255 255 ]: #
-[ #id top stick-to-top ]: #
-
-# Soul Engine {#top}
+# Soul Engine
 
 
-# Welcome To The Soul Engine {#wese}
+# Welcome To The Soul Engine
 
 This is a light-weight game engine that prioratises simplicity and code aesthetic above all else.
 
@@ -14,7 +11,7 @@ It uses code written in:
  - markdown for documentation
 
 
-# Instalation / Building {#inst}
+# Instalation / Building
 
 ### Get The Zip
 
@@ -44,7 +41,7 @@ Here's what the 3 files do:
  - loader.c         | In here you can load your native-script modules (Coming soon)
 
 
-# Build Process {#buipro}
+# Build Process
 
 ### What Just Happened?
 
@@ -75,13 +72,13 @@ The build system `tools/gcc.lua` should technically work for any project, outsid
 - EVERYTHING
 
 
-# Dependencies {#deps}
+# Dependencies
 
  - [raylib 5.0]( https://github.com/raysan5/raylib/releases/tag/5.0 )
  - [lua 5.4.6](  https://github.com/lua/lua/releases/tag/v5.4.6 )
 
 
-# Changes made on dependencies {#depcha}
+# Changes made on dependencies
 
  - [lua]    Added luac to the source code & added it to the makefile
  - [lua]    Edited the makefile to build a shared library instead of a static one
